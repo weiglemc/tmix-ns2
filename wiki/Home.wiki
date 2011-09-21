@@ -1,4 +1,5 @@
 #summary Overview of Tmix in ns-2
+#labels Featured
 
 =Introduction=
 
