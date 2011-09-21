@@ -1,0 +1,30 @@
+#summary Overview of Tmix in ns-2
+
+=Introduction=
+
+Tmix has been included in the standard codebase of ns-2 since [http://sourceforge.net/project/showfiles.php?group_id=149743 ns-2.34] (June 2009).
+
+A version of Tmix for one-way TCP will be included in the upcoming ns-2.35 release.  If you can't wait for the release, you can access the latest version of ns-2 via [http://www.isi.edu/nsnam/ns/ns-anoncvs.html anonymous CVS].  You can also download the [http://nsnam.isi.edu/nsnam/index.php/Roadmap#Current_release_snapshots latest snapshot]. 
+
+Documentation - [http://nsnam.isi.edu/nsnam/index.php/Manual:_Tmix:_Internet_Traffic_Generation Tmix in ns-2 Manual]
+
+= Details =
+Example (same code can be found in tcl/ex/tmix/ directory of ns-2.34 and later)
+  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=test-tmix.tcl test-tmix.tcl]
+  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=sample-alt.cvec sample-alt.cvec]
+
+Validation
+  * Tmix using ns-2 Full-TCP and Tmix using ns-2 one-way TCP validated against the original trace and Tmix replayed in UNC's testbed
+  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=ns2-lossless-sep2010.pdf ns2-lossless-sep2010.pdf] - no packet losses simulated
+  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=ns2-lossy-sep2010.pdf ns2-lossy-sep2010.pdf] - packet losses simulated
+  * Note: One-way TCP used all 500-byte packets, whereas Full-TCP can use variable-sized packets (max 1460 bytes)
+
+For more information on Tmix, see
+  * Weigle, M. C., Adurthi, P., Hernández-Campos, F., Jeffay, K., and Smith, F. D. Tmix: a tool for generating realistic TCP application workloads in ns-2. SIGCOMM Comput. Commun. Rev. 36, 3 (Jul. 2006), 65-76. http://doi.acm.org/10.1145/1140086.1140094
+  * http://netlab.cs.unc.edu/Tmix
+  * http://www.cs.odu.edu/~mweigle/
+  * http://wil.cs.caltech.edu/suite/TrafficTraces.php
+
+For more information on ns-2, see
+  * http://www.isi.edu/nsnam/ns/
+  * [http://nsnam.isi.edu/nsnam/index.php/Main_Page ns-2 Wiki]
