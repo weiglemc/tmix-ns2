@@ -20,6 +20,8 @@ Validation
   * [http://code.google.com/p/tmix-ns2/downloads/detail?name=ns2-lossy-sep2010.pdf ns2-lossy-sep2010.pdf] - packet losses simulated
   * Note: One-way TCP used all 500-byte packets, whereas Full-TCP can use variable-sized packets (max 1460 bytes)
 
+ValidationGraphs
+
 For more information on Tmix, see
   * Weigle, M. C., Adurthi, P., Hernández-Campos, F., Jeffay, K., and Smith, F. D. Tmix: a tool for generating realistic TCP application workloads in ns-2. SIGCOMM Comput. Commun. Rev. 36, 3 (Jul. 2006), 65-76. http://doi.acm.org/10.1145/1140086.1140094
   * http://netlab.cs.unc.edu/Tmix
