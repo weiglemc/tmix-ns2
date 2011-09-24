@@ -11,4 +11,4 @@ Runtime
 ||Full Lossless, FIN 100 ms	|| 2.38|| 672.64||
 ||Full Lossless, FIN 10 ms	|| 2.37|| 672.12||
 
-[http://code.google.com/p/tmix-ns2/source/browse/wiki/ns2-graphs/runtimes.png]
+[http://code.google.com/p/tmix-ns2/ns2-graphs/runtimes.png]
