@@ -21,6 +21,16 @@ Lossless
 
 Lossy
 
+
+||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/parrivals-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/parrivals-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/parrivals-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/parrivals-src-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/rtt.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/rtt-small.png]||
+||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/tput-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/tput-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/tput-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/tput-src-small.png] || ||
+
 Full-Lossless
 
+||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-src-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/rtt.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/rtt-small.png]||
+||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-src-small.png] || ||
+
 Oneway-Lossless
+
+||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/parrivals-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/parrivals-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/parrivals-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/parrivals-src-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/rtt.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/rtt-small.png]||
+||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/tput-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/tput-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/tput-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/oneway-lossless/tput-src-small.png] || ||
