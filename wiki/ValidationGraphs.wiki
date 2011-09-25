@@ -3,7 +3,7 @@
 
  [ValidationGraphsLossless Lossless ] | [ValidationGraphsLossy Lossy ] | [ValidationGraphsFullLossless Full-Lossless ] | [ValidationGraphsOnewayLossless Oneway-Lossless ]
 
-Runtime
+=Runtime=
 || *Experiment* || *Runtime (hrs)* || *Memory Usage (MiB)* ||
 ||Oneway Lossy, FIN 1 sec	|| 9.39|| 14325.80||
 ||Oneway Lossless, FIN 1 sec	|| 9.55|| 14519.95||
