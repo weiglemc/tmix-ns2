@@ -13,17 +13,5 @@ Runtime
 ||Full Lossless, FIN 1 sec	|| 2.39|| 674.64||
 ||Full Lossless, FIN 100 ms	|| 2.38|| 672.64||
 ||Full Lossless, FIN 10 ms	|| 2.37|| 672.12||
+
 [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/runtimes/runtimes.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/runtimes/runtimes-small.png]
-
-Lossless
-
-
-
-Lossy
-
-
-
-Full-Lossless
-
-
-Oneway-Lossless
