@@ -1,6 +1,6 @@
 #summary Tmix in ns-2 validation graphs.
 
-[ValidationGraphs-Lossless Lossless ] 
+[ValidationGraphsLossless Lossless ] [ValidationGraphsLossy Lossy ] [ValidationGraphsFullLossless Full-Lossless ] [ValidationGraphsOnewayLossless Oneway-Lossless ]
 
 Runtime
 || *Experiment* || *Runtime (hrs)* || *Memory Usage (MiB)* ||
