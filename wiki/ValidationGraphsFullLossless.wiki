@@ -1,3 +1,3 @@
-#summary Tmix in ns-2 Full-Lossless validation graphs.
+#summary Tmix in ns-2 Full Lossless validation graphs.
 ||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/parrivals-src-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/rtt.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/rtt-small.png]||
 ||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/tput-src-small.png] || ||
