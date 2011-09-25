@@ -1,4 +1,0 @@
-* [ValidationGraphsLossless Lossless ]
-* [ValidationGraphsLossy Lossy ]
-* [ValidationGraphsFullLossless Full-Lossless ] 
-* [ValidationGraphsOnewayLossless Oneway-Lossless ]
