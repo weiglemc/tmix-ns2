@@ -1,6 +1,6 @@
 #summary Tmix in ns-2 validation graphs.
 
-[Lossless ValidationGraphs-Lossless] 
+[ValidationGraphs-Lossless Lossless ] 
 
 Runtime
 || *Experiment* || *Runtime (hrs)* || *Memory Usage (MiB)* ||
