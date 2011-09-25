@@ -1,5 +1,5 @@
 #summary Tmix in ns-2 validation graphs.
-
+<div>
 Runtime
 || *Experiment* || *Runtime (hrs)* || *Memory Usage (MiB)* ||
 ||Oneway Lossy, FIN 1 sec	|| 9.39|| 14325.80||
@@ -11,9 +11,8 @@ Runtime
 ||Full Lossless, FIN 100 ms	|| 2.38|| 672.64||
 ||Full Lossless, FIN 10 ms	|| 2.37|| 672.12||
 
-
 [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/runtimes/runtimes.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/runtimes/runtimes-small.png]
-
+</div>
 Lossless
 
 ||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-src-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/rtt.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/rtt-small.png]||
