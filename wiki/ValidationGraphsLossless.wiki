@@ -1,4 +1,6 @@
 #summary Tmix in ns-2 Lossless validation graphs.
 
+[ValidationGraphsLossless Lossless ] | [ValidationGraphsLossy Lossy ] | [ValidationGraphsFullLossless Full-Lossless ] | [ValidationGraphsOnewayLossless Oneway-Lossless ]
+
 ||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-src-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/rtt.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/rtt-small.png]||
 ||[http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/tput-dst.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/tput-dst-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/tput-src.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/tput-src-small.png] || ||
