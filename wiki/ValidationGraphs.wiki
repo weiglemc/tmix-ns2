@@ -14,3 +14,5 @@
 ||Full Lossless, FIN 10 ms	|| 2.37|| 672.12||
 
 [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/runtimes/runtimes.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/runtimes/runtimes-small.png]
+
+[http://tmix-ns2.googlecode.com/files/runtimes.png http://tmix-ns2.googlecode.com/files/runtimes-small.png]
