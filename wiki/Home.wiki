@@ -10,11 +10,6 @@ Tmix for one-way TCP has been included since
 
 Documentation - [http://nsnam.isi.edu/nsnam/index.php/Manual:_Tmix:_Internet_Traffic_Generation Tmix in ns-2 Manual]
 
-= Examples =
-Example (same code can be found in tcl/ex/tmix/ directory of ns-2.34 and later)
-  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=test-tmix.tcl test-tmix.tcl]
-  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=sample-alt.cvec sample-alt.cvec]
-
 = Validation =
 
   * Tmix using ns-2 Full-TCP and Tmix using ns-2 one-way TCP validated against the original trace and Tmix replayed in UNC's testbed
@@ -23,6 +18,14 @@ Example (same code can be found in tcl/ex/tmix/ directory of ns-2.34 and later)
   * Note: One-way TCP used all 500-byte packets, whereas Full-TCP can use variable-sized packets (max 1460 bytes)
 
 ValidationGraphs
+
+= Examples =
+
+Links are to the [http://nsnam.cvs.sourceforge.net/viewvc/nsnam/ns-2/tcl/ex/tmix/ tcl/ex/tmix/ directory of ns-2.35]:
+ * [http://nsnam.cvs.sourceforge.net/viewvc/nsnam/ns-2/tcl/ex/tmix/test-tmix.tcl?revision=1.2&view=markup test-tmix.tcl ] - Full-TCP example, generates tmix-trace.trq.gz
+ * [http://nsnam.cvs.sourceforge.net/viewvc/nsnam/ns-2/tcl/ex/tmix/test-tmix-oneway.tcl?revision=1.2&view=markup test-tmix-oneway.tcl ] - one-way TCP example, generates tmix-oneway-trace.trq.gz
+ * [http://nsnam.cvs.sourceforge.net/viewvc/nsnam/ns-2/tcl/ex/tmix/sample-orig.cvec?revision=1.1&view=markup sample-orig.cvec ] - sample connection vector file, original format
+ * [http://nsnam.cvs.sourceforge.net/viewvc/nsnam/ns-2/tcl/ex/tmix/sample-alt.cvec?revision=1.1&view=markup sample-alt.cvec ] - sample connection vector file, alternate format
 
 = References = 
 For more information on Tmix, see
