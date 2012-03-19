@@ -1,13 +1,5 @@
 #summary Tmix in ns-2 Full Lossless validation graphs.
 
-== [Home Wiki Home]==
-
-----
-
-==Graphs: [ValidationGraphs Runtime] | [ValidationGraphsLossless Lossless ] | [ValidationGraphsLossy Lossy ] | [ValidationGraphsFullLossless Full-TCP Lossless ] | [ValidationGraphsOnewayLossless One-way TCP Lossless ]==
-
-----
-
 == Full-TCP Lossless Graphs ==
 
 || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/active-conns.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/active-conns-small.png] || [http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/goodput.png http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/full-lossless/goodput-small.png] ||
