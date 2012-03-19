@@ -1,12 +1,6 @@
 #summary Tmix in ns-2 Lossy validation graphs.
 
-==[Home Wiki Home]==
-
-----
-
-==Graphs: [ValidationGraphs Runtime] | [ValidationGraphsLossless Lossless ] | [ValidationGraphsLossy Lossy ] | [ValidationGraphsFullLossless Full-TCP Lossless ] | [ValidationGraphsOnewayLossless One-way TCP Lossless ]==
-
-----
+==Lossy Graphs==
 
 || [http://code.google.com/p/tmix-ns2/wiki/LossyActiveConns http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/active-conns-small.png] || [http://code.google.com/p/tmix-ns2/wiki/LossyGoodput http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/goodput-small.png] ||
 || [http://code.google.com/p/tmix-ns2/wiki/LossyParrivalsDst http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/parrivals-dst-small.png] || [http://code.google.com/p/tmix-ns2/wiki/LossyParrivalsSrc http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/parrivals-src-small.png] ||
