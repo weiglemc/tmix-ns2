@@ -1,5 +1,10 @@
-==[Home Wiki Home]==
+[Home Wiki Home]
 
 ----
 
-==Graphs: [ValidationGraphs Runtime] | [ValidationGraphsLossless Lossless ] | [ValidationGraphsLossy Lossy ] | [ValidationGraphsFullLossless Full-TCP Lossless ] | [ValidationGraphsOnewayLossless One-way TCP Lossless ]==
+Graphs: 
+ * [ValidationGraphs Runtime]
+ * [ValidationGraphsLossless Lossless ]
+ * [ValidationGraphsLossy Lossy ]
+ * [ValidationGraphsFullLossless Full-TCP Lossless ]
+ * [ValidationGraphsOnewayLossless One-way TCP Lossless ]
