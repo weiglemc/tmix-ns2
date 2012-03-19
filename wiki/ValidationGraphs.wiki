@@ -1,13 +1,5 @@
 #summary Tmix in ns-2 validation graphs.
 
-==[Home Wiki Home]==
-
-----
-
-==Graphs: [ValidationGraphs Runtime] | [ValidationGraphsLossless Lossless ] | [ValidationGraphsLossy Lossy ] | [ValidationGraphsFullLossless Full-TCP Lossless ] | [ValidationGraphsOnewayLossless One-way TCP Lossless ]==
-
-----
-
 ==Runtime==
 || *Experiment* || *Runtime (hrs)* || *Memory Usage (MB)* ||
 ||One-way TCP Lossy, FIN 1 sec	|| 9.39|| 14325.80||
