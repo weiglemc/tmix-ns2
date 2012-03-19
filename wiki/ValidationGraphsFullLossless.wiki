@@ -1,6 +1,6 @@
 #summary Tmix in ns-2 Full Lossless validation graphs.
 
-==[Home Wiki Home]==
+== Full-TCP Lossless Graphs |  [Home Wiki Home]==
 
 ----
 
