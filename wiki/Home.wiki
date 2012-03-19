@@ -12,12 +12,11 @@ Documentation - [http://nsnam.isi.edu/nsnam/index.php/Manual:_Tmix:_Internet_Tra
 
 = Validation =
 
-  * Tmix using ns-2 Full-TCP and Tmix using ns-2 one-way TCP validated against the original trace and Tmix replayed in UNC's testbed
-  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=ns2-lossless-sep2010.pdf ns2-lossless-sep2010.pdf] - no packet losses simulated
-  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=ns2-lossy-sep2010.pdf ns2-lossy-sep2010.pdf] - packet losses simulated
-  * Note: One-way TCP used all 500-byte packets, whereas Full-TCP can use variable-sized packets (max 1460 bytes)
+[ValidationGraphs Graphs]
 
-ValidationGraphs
+Notes on experiment:
+  * Tmix using ns-2 Full-TCP and Tmix using ns-2 one-way TCP validated against the original trace and Tmix replayed in UNC's testbed
+  * Note: One-way TCP used all 500-byte packets, whereas Full-TCP can use variable-sized packets (max 1460 bytes)
 
 = Examples =
 
