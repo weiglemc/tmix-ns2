@@ -3,14 +3,14 @@
 The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].
 
 We ran 8 experiments, each run for 3600 seconds:
- * one-way TCP Lossy, FIN 1 sec	
- * one-way TCP Lossless, FIN 1 sec	
- * one-way TCP Lossless, FIN 100 ms	 
- * one-way TCP Lossless, FIN 10 ms	
- * Full-TCP Lossy, FIN 1 sec	 
- * Full-TCP Lossless, FIN 1 sec	
- * Full-TCP Lossless, FIN 100 ms	
- * Full-TCP Lossless, FIN 10 ms	 
+ * one-way TCP lossy
+ * one-way TCP lossless
+ * Full-TCP lossy
+ * Full-TCP lossless
+ * one-way TCP lossless, FIN 100 ms	 
+ * Full-TCP lossless, FIN 100 ms	
+ * one-way TCP lossless, FIN 10 ms	
+ * Full-TCP lossless, FIN 10 ms	 
 
 ===FIN Wait Times===
 For many connection vectors, there was no TCP FIN packet recorded, so we do not know exactly when the connection was completed.  For many metrics, we need to know the duration of the connection.  For those connections that do not have a FIN, we inserted an artificial FIN. 
