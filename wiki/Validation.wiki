@@ -21,7 +21,7 @@ The impact of the artificial FIN is most apparent for one-way TCP.  Waiting long
 
 ===Scripts===
  * TCL script
- * processing script
+ * processing scripts
 
 The processing script generates data for each graph we show:
  * number of active connections each second
