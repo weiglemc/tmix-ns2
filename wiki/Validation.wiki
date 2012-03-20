@@ -30,3 +30,10 @@ The processing script generates data for each graph we show:
  * CDF of HTTP response times for each completed connection
  * CDF of RTTs for each connection
  * throughput per second in each direction
+
+===Graphs===
+ * [ValidationGraphsRuntime Runtime]
+ * [ValidationGraphsLossless Lossless ]
+ * [ValidationGraphsLossy Lossy ]
+ * [ValidationGraphsFullLossless Full-TCP Lossless ]
+ * [ValidationGraphsOnewayLossless One-way TCP Lossless ]
