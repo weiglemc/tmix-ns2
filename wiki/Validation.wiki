@@ -2,24 +2,26 @@
 
 The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].
 
-One-way TCP Lossy, FIN 1 sec	
-One-way TCP Lossless, FIN 1 sec	
-One-way TCP Lossless, FIN 100 ms	 
-One-way TCP Lossless, FIN 10 ms	
-Full-TCP Lossy, FIN 1 sec	 
-Full-TCP Lossless, FIN 1 sec	
-Full-TCP Lossless, FIN 100 ms	
-Full-TCP Lossless, FIN 10 ms	 
+We ran 8 experiments:
+ * one-way TCP Lossy, FIN 1 sec	
+ * one-way TCP Lossless, FIN 1 sec	
+ * one-way TCP Lossless, FIN 100 ms	 
+ * one-way TCP Lossless, FIN 10 ms	
+ * Full-TCP Lossy, FIN 1 sec	 
+ * Full-TCP Lossless, FIN 1 sec	
+ * Full-TCP Lossless, FIN 100 ms	
+ * Full-TCP Lossless, FIN 10 ms	 
 
+For many connection vectors, there was no TCP FIN packet recorded, so we do not know exactly when the connection was completed.  For many metrics, we need to know the duration of the connection.  For those connections that do not have a FIN, we inserted an artificial FIN. The FIN time (1 sec, 100 ms, 10 ms) in the experiment indicates the time between when the last data unit was sent and the sending of the artificial FIN.  Shorter FIN times result in shorter connections, lower active connections, and faster runtimes.
 
+Each simulation was run for 3600 seconds.  
+ * TCL script
+ * processing script
 
+The processing script generates data for each graph we show:
  * number of active connections each second
  * CDF of goodput for each completed connection
  * packet arrivals per second in each direction
  * CDF of HTTP response times for each completed connection
  * CDF of RTTs for each connection
  * throughput per second in each direction
-
-TCL script
-
-processing script
