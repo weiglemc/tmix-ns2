@@ -1,5 +1,6 @@
 #summary Details of Tmix in ns-2
 #labels Featured
+#sidebar =
 
 =Overview =
 
