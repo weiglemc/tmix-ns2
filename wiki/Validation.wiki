@@ -1,4 +1,25 @@
 #summary Validation overview
 
-The validation experiments were run on a 2 Quad-core Xeon 2.33 GHz running Ubuntu Linux 2.6.32-31 with 
-16 GB RAM. 
+The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].
+
+One-way TCP Lossy, FIN 1 sec	
+One-way TCP Lossless, FIN 1 sec	
+One-way TCP Lossless, FIN 100 ms	 
+One-way TCP Lossless, FIN 10 ms	
+Full-TCP Lossy, FIN 1 sec	 
+Full-TCP Lossless, FIN 1 sec	
+Full-TCP Lossless, FIN 100 ms	
+Full-TCP Lossless, FIN 10 ms	 
+
+
+
+ * number of active connections each second
+ * CDF of goodput for each completed connection
+ * packet arrivals per second in each direction
+ * CDF of HTTP response times for each completed connection
+ * CDF of RTTs for each connection
+ * throughput per second in each direction
+
+TCL script
+
+processing script
