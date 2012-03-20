@@ -29,7 +29,7 @@ We ran validation experiments using the connection vectors from the CCR 2006 pap
 
  * [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors]
 
-[Graphs]
+[Validation Graphs]
 
 = References = 
 For more information on Tmix, see
