@@ -7,6 +7,7 @@ We ran 8 experiments, each run for 3600 seconds:
  * one-way TCP lossless
  * Full-TCP lossy
  * Full-TCP lossless
+
  * one-way TCP lossless, FIN 100 ms	 
  * Full-TCP lossless, FIN 100 ms	
  * one-way TCP lossless, FIN 10 ms	
@@ -17,7 +18,7 @@ For many connection vectors, there was no TCP FIN packet recorded, so we do not 
 
 The FIN time (1 sec, 100 ms, 10 ms) in the experiment indicates the time between when the last data unit was sent and the sending of the artificial FIN.  Shorter FIN times result in shorter connections, lower active connections, and faster runtimes.   
 
-The impact of the artificial FIN is most apparent for one-way TCP.  Waiting longer before sending the artificial FIN ensures that all packets in the connection have been received before the TCP connection closes, producing results that more closely match the original and testbed.  The tradeoff is that the running time and memory usage are increased.  We show all results so that users are aware of the tradeoff.  The default value for the FIN wait time is *1 second*.
+The impact of the artificial FIN is most apparent for one-way TCP.  Waiting longer before sending the artificial FIN ensures that all packets in the connection have been received before the TCP connection closes, producing results that more closely match the original and testbed.  The tradeoff is that the running time and memory usage are increased.  We show all results so that users are aware of the tradeoff.  The default value for the FIN wait time is 1 second.
 
 ===Scripts===
  * TCL script
