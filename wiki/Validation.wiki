@@ -12,7 +12,7 @@ We ran 8 experiments:
  * Full-TCP Lossless, FIN 100 ms	
  * Full-TCP Lossless, FIN 10 ms	 
 
-For many connection vectors, there was no TCP FIN packet recorded, so we do not know exactly when the connection was completed.  For many metrics, we need to know the duration of the connection.  For those connections that do not have a FIN, we inserted an artificial FIN. The FIN time (1 sec, 100 ms, 10 ms) in the experiment indicates the time between when the last data unit was sent and the sending of the artificial FIN.  Shorter FIN times result in shorter connections, lower active connections, and faster runtimes.
+For many connection vectors, there was no TCP FIN packet recorded, so we do not know exactly when the connection was completed.  For many metrics, we need to know the duration of the connection.  For those connections that do not have a FIN, we inserted an artificial FIN. The FIN time (1 sec, 100 ms, 10 ms) in the experiment indicates the time between when the last data unit was sent and the sending of the artificial FIN.  Shorter FIN times result in shorter connections, lower active connections, and faster runtimes.  This is particular apparent in the one-way TCP experiments (see OnewayLosslessActiveConns).
 
 Each simulation was run for 3600 seconds.  
  * TCL script
