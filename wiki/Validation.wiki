@@ -1,15 +1,4 @@
 #summary Validation overview
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-Test page
+The validation experiments were run on a 2 Quad-core Xeon 2.33 GHz running Ubuntu Linux 2.6.32-31 with 
+16 GB RAM. 
