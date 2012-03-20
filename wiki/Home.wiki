@@ -10,13 +10,8 @@ Tmix for one-way TCP has been included since
 
 Documentation - [http://nsnam.isi.edu/nsnam/index.php/Manual:_Tmix:_Internet_Traffic_Generation Tmix in ns-2 Manual]
 
-= Validation =
+= [Validation Validation Experiment and Results] =
 
-[ValidationGraphs Graphs]
-
-Notes on experiment:
-  * Tmix using ns-2 Full-TCP and Tmix using ns-2 one-way TCP validated against the original trace and Tmix replayed in UNC's testbed
-  * Note: One-way TCP used all 500-byte packets, whereas Full-TCP can use variable-sized packets (max 1460 bytes)
 
 = Examples =
 
