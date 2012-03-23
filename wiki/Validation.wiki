@@ -23,7 +23,7 @@ The impact of the artificial FIN is most apparent for one-way TCP.  Waiting long
 
 ===Graphs===
 
-Each set of graphs (except runtime) include the following metrics:
+Each set of graphs (except runtime) includes the following metrics:
  * number of active connections each second
  * CDF of goodput for each completed connection
  * packet arrivals per second in each direction
@@ -31,6 +31,7 @@ Each set of graphs (except runtime) include the following metrics:
  * CDF of RTTs for each connection
  * throughput per second in each direction
 
+Validation Graphs
  * [ValidationGraphsRuntime Runtime]
  * [ValidationGraphsLossless Lossless ] - original, testbed, Full-TCP, One-Way TCP
  * [ValidationGraphsLossy Lossy ] - original, testbed, Full-TCP, One-Way TCP
