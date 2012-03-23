@@ -1,6 +1,6 @@
 #summary Validation overview
 
-The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].
+The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].  The TCL script used is [http://code.google.com/p/tmix-ns2/downloads/detail?name=tmix.tcl tmix.tcl].
 
 We ran 8 experiments, each run for 3600 seconds:
  * one-way TCP lossy, FIN 1 s
@@ -19,11 +19,9 @@ The FIN time (1 sec, 100 ms, 10 ms) in the experiment indicates the time between
 
 The impact of the artificial FIN is most apparent for one-way TCP.  Waiting longer before sending the artificial FIN ensures that all packets in the connection have been received before the TCP connection closes, producing results that more closely match the original and testbed.  The tradeoff is that the running time and memory usage are increased.  We show all results so that users are aware of the tradeoff.  The default value for the FIN wait time is 1 second.
 
-===Scripts===
- * TCL script
- * processing scripts
+===Graphs===
 
-The processing script generates data for each graph we show:
+Each set of graphs (except runtime) include the following metrics:
  * number of active connections each second
  * CDF of goodput for each completed connection
  * packet arrivals per second in each direction
@@ -31,9 +29,8 @@ The processing script generates data for each graph we show:
  * CDF of RTTs for each connection
  * throughput per second in each direction
 
-===Graphs===
  * [ValidationGraphsRuntime Runtime]
- * [ValidationGraphsLossless Lossless ]
- * [ValidationGraphsLossy Lossy ]
- * [ValidationGraphsFullLossless Full-TCP Lossless ]
- * [ValidationGraphsOnewayLossless One-way TCP Lossless ]
+ * [ValidationGraphsLossless Lossless ] - original, testbed, Full-TCP, One-Way TCP
+ * [ValidationGraphsLossy Lossy ] - original, testbed, Full-TCP, One-Way TCP
+ * [ValidationGraphsFullLossless Full-TCP Lossless ] - original, testbed, FIN 1s, FIN 100 ms, FIN 10 ms
+ * [ValidationGraphsOnewayLossless One-way TCP Lossless ] - original, testbed, FIN 1s, FIN 100 ms, FIN 10 ms
