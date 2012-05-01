@@ -4,6 +4,8 @@
 
 =Overview =
 
+The basic idea behind Tmix is to generate realistic Internet traffic. In ns, we take _connection vectors_ and generate TCP connections starting at the specified time and sending the specified amount of data. Each connection has an _initiator_ (the node that starts the connection) and an _acceptor_ (the node that accepts the connection). These are generally on opposite sides of the network from each other. 
+
 Tmix for Full-TCP has been included in the standard codebase of ns-2 since [http://sourceforge.net/projects/nsnam/files/allinone/ns-allinone-2.34/ ns-2.34] (June 2009).
 
 Tmix for one-way TCP has been included since 
