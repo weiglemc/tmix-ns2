@@ -4,6 +4,10 @@
 
 The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].  The TCL script used is [http://code.google.com/p/tmix-ns2/downloads/detail?name=tmix.tcl tmix.tcl].
 
+Experiment topology:
+
+<img src="http://www.cs.odu.edu/~inets/Tmix/Home?action=download&upname=tmix-fig.jpg" alt="" width="350">
+
 We ran 8 experiments, each run for 3600 seconds:
  * one-way TCP lossy, FIN 1 s
  * one-way TCP lossless, FIN 1 s
