@@ -6,7 +6,7 @@ The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads
 
 Experiment topology:
 
-<img src="http://www.cs.odu.edu/~inets/Tmix/Home?action=download&upname=tmix-fig.jpg" alt="" width="350">
+<img src="http://www.cs.odu.edu/~inets/files/tmix-fig.jpg" alt="" width="350">
 
 We ran 8 experiments, each run for 3600 seconds:
  * one-way TCP lossy, FIN 1 s
