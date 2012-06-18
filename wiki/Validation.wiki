@@ -2,7 +2,7 @@
 
 ===Overview===
 
-The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper].  The TCL script used is [http://code.google.com/p/tmix-ns2/downloads/detail?name=tmix.tcl tmix.tcl].
+The validation experiments used the [http://code.google.com/p/tmix-ns2/downloads/detail?name=ccr06-traces.tgz connection vectors from our CCR 2006 paper] (src direction uses outbound.cvec, dst direction uses inbound.cvec).  The TCL script used is [http://code.google.com/p/tmix-ns2/downloads/detail?name=tmix.tcl tmix.tcl].
 
 Experiment topology:
 
