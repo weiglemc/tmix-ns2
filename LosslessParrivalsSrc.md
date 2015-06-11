@@ -1,0 +1,1 @@
+![http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-src.png](http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossless/parrivals-src.png)

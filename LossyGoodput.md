@@ -1,0 +1,1 @@
+![http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/goodput.png](http://tmix-ns2.googlecode.com/svn/wiki/ns2-graphs/lossy/goodput.png)
